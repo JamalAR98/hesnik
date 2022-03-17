@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- css -->
+    <link rel="stylesheet" href="./font/all.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/section1.css">
+    <link rel="stylesheet" href="./css/section2.css">
+    <link rel="stylesheet" href="./css/section3.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <!-- --- -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hsnek</title>
+</head>
+
+<body>
+    
+  <div class="main">
+        <nav>
+            <div class="n-logo">
+                <div class="n-logo-wrp">
+                    <img src="./img/logo.svg" alt="">
+                    <span>esnik</span>
+                </div>
+            </div>
+            <div class="n-list">
+                <ul>
+                    <li> <a href="">Home</a> </li>
+                    <li> <a href="">Blog</a> </li>
+                    <li> <a href="">Contact</a> </li>
+                    <li> <a href="">Location</a> </li>
+                </ul>
+            </div>
+
+            <div class="n-search-bar">
+                <div class="n-search"> 
+                    <input onclick="searchHundler()" type="text" name="" id="search-input" placeholder="Search">
+                    <button class="n-search-icon-btn">
+                        <i class="n-search-icon fa-regular fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="sideList">
+                <i class="fa-regular fa-bars"></i>
+            </div> 
+        </nav>
+        <div class="side-list-wrapper">
+            <div class="n-search-bar">
+                <div class="n-search" id="search-input2">
+                    <input onclick="searchHundler()" id="search-input-btn" type="text" name="" placeholder="Search">
+                    <button class="n-search-icon-btn">
+                        <i class="n-search-icon fa-regular fa-magnifying-glass"></i> 
+                    </button>
+                </div>
+            </div>
+
+            <div class="n-list">
+                <ul> 
+                    <li> <a href="">Home</a> </li>
+                    <li> <a href="">Blog</a> </li>
+                    <li> <a href="">Contact</a> </li>
+                    <li> <a href="">Location</a> </li>
+                </ul>
+            </div>
+        </div>
+        
+   </div>
+
+   <header>
+       <div class="bottom"></div>
+       <div class="top">
+           <div class="top-content">
+                <h1>
+                    Order your <br> 
+                    <span class="space">favorite <span class="yellow">Foods</span></span>
+                </h1>
+                <p>
+                    Fresh Vegetable are cut and packed using vacuum 
+                    <br>
+                    packaging method to keep its freshness.
+                </p>
+                <div class="btn">
+                    <button>Order now</button>
+                </div>
+           </div>
+       </div>
+   </header>
+
+    <section class="section1">
+        <div class="title">
+            <h2>Online Store</h2>
+            <h1>Popular Products</h1>
+        </div>
+        <div class="offers-slide">
+            <article>
+                <img src="./img/plates/plate-1.png" alt="">
+                <div class="stars">
+                    <span class="hole-star">
+                        <i class="bottom fa-solid fa-star"></i>
+                        <i class="top fa-solid fa-star"></i>
+                    </span>
+                    <span class="hole-star">
+                        <i class="bottom fa-solid fa-star"></i>
+                        <i class="top fa-solid fa-star"></i>
+                    </span>
+                    <span class="hole-star">
+                        <i class="bottom fa-solid fa-star"></i>
+                        <i class="top fa-solid fa-star"></i>
+                    </span>
+                    <span class="hole-star">
+                        <i class="bottom fa-solid fa-star"></i>
+                        <i class="top fa-solid fa-star"></i>
+                    </span>
+                    <span class="half-star">
+                        <i class="bottom fa-solid fa-star"></i>
+                        <i class="top fa-solid fa-star-half"></i>
+                    </span>
+                </div>
+                <h3 class="pub-title">Hesnik Foods</h3>
+                <h1>Fruit dish</h1>
+                <button>
+                    Add to Cart <span>$200</span>
+                </button>
+            </article>
+
+            <article class="m-l">
+                <img src="./img/plates/plate-2.png" alt="">
+                <div class="stars">
+                    <span class="hole-star">
+                        <i class="bottom fa-solid fa-star"></i>
+                        <i class="top fa-solid fa-star"></i>
+                    </span>
+                    <span class="hole-star">
+                        <i class="bottom fa-solid fa-star"></i>
+                        <i class="top fa-solid fa-star"></i>
+                    </span>
+                    <span class="hole-star">
+                        <i class="bottom fa-solid fa-star"></i>
+                        <i class="top fa-solid fa-star"></i>
+                    </span>
+                    <span class="hole-star">
+                        <i class="bottom fa-solid fa-star"></i>
+                        <i class="top fa-solid fa-star"></i>
+                    </span>
+                    <span class="half-star">
+                        <i class="bottom fa-solid fa-star"></i>
+                        <i class="top fa-solid fa-star-half"></i>
+                    </span>
+                </div>
+                <h3 class="pub-title">Hesnik Foods</h3>
+                <h1>Fruit dish</h1>
+                <button>
+                    Add to Cart <span>$300</span>
+                </button>
+            </article>
+            <article class="m-l">
+                <img src="./img/plates/plate-3.png" alt="">
+                <div class="stars">
+                    <span class="hole-star">
+                        <i class="bottom fa-solid fa-star"></i>
+                        <i class="top fa-solid fa-star"></i>
+                    </span>
+                    <span class="hole-star">
+                        <i class="bottom fa-solid fa-star"></i>
+                        <i class="top fa-solid fa-star"></i>
+                    </span>
+                    <span class="hole-star">
+                        <i class="bottom fa-solid fa-star"></i>
+                        <i class="top fa-solid fa-star"></i>
+                    </span>
+                    <span class="hole-star">
+                        <i class="bottom fa-solid fa-star"></i>
+                        <i class="top fa-solid fa-star"></i>
+                    </span>
+                    <span class="half-star">
+                        <i class="bottom fa-solid fa-star"></i>
+                        <i class="top fa-solid fa-star-half"></i>
+                    </span>
+                </div>
+                <h3 class="pub-title">Hesnik Foods</h3>
+                <h1>Sea fish dish</h1>
+                <button>
+                    Add to Cart <span>$400</span>
+                </button>
+            </article> 
+            <article class="m-l">
+                <img src="./img/plates/plate-4.png" alt="">
+                <div class="stars"> 
+                    <span class="hole-star">
+                        <i class="bottom fa-solid fa-star"></i>
+                        <i class="top fa-solid fa-star"></i>
+                    </span>
+                    <span class="hole-star">
+                        <i class="bottom fa-solid fa-star"></i>
+                        <i class="top fa-solid fa-star"></i>
+                    </span>
+                    <span class="hole-star">
+                        <i class="bottom fa-solid fa-star"></i>
+                        <i class="top fa-solid fa-star"></i>
+                    </span>
+                    <span class="hole-star">
+                        <i class="bottom fa-solid fa-star"></i>
+                        <i class="top fa-solid fa-star"></i>
+                    </span>
+                    <span class="half-star">
+                        <i class="bottom fa-solid fa-star"></i>
+                        <i class="top fa-solid fa-star-half"></i>
+                    </span>
+                </div>
+                <h3 class="pub-title">Hesnik Foods</h3>
+                <h1>Pancake</h1>
+                <button>
+                    Add to Cart <span>$120</span>
+                </button>
+            </article> 
+        </div>
+    </section>
+ 
+    <section class="section2">
+        <div class="container">
+            <h2>App</h2>
+            <h1>
+                We are the best quality 
+                <br>
+                <span>restaurant</span>
+            </h1>
+            <p>
+                it's all at your fingertips -- the restaurants you love.
+                <br>
+                Find the right food to suit your mood, and make 
+                <br>
+                the first bite last, Go ahead, download us.
+            </p>
+            <p>
+                You can order easily by using hesnik App,
+            </p>
+            <div class="buttons">
+                <button>
+                    <div class="icon icon-apple">
+                        <img  src="./img/apple-logosvg.svg" alt="">
+                    </div> 
+                    <div class="content">
+                        <h3>download on the</h3>
+                        <h1>App Store</h1>
+                    </div>
+                </button>
+                <button class="g-play"> 
+                    <div class="icon">
+                        <img src="./img/g-icon.svg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>GET IT ON</h3>
+                        <h1>Google Play</h1>
+                    </div> 
+                </button>
+            </div> 
+        </div>
+    </section>
+
+ <section class="section3">
+     <div class="container">
+         <div class="top-content">
+             <h3>Menu</h3>
+             <h1>
+                 <span>Explore our featured food</span>
+             </h1>
+         </div>
+         <div class="bottom-content">
+            <button class="prev">
+                <i class="fa-regular fa-angle-left"></i>
+            </button>
+            <div class="slider-wrp">
+                <article>
+                    <span class="heart">
+                        <i class="fa-solid fa-heart" id="favHeart"></i>
+                    </span>
+                    <div class="img">
+                        <img src="./img/plates/plate-2.png" alt="">
+                    </div>
+                    <div class="t-one">
+                        <h1>Fruit salad</h1>
+                    </div>
+                    <div class="t-two">
+                        <p>Hesnik Food</p>
+                    </div>
+
+                    <div class="t-btns" id="pr">
+                        <button id="bFav">Add to Card <span>$300</span></button>
+                    </div>
+                </article>
+
+                <article>
+                    <span class="heart">
+                        <i class="fa-solid fa-heart" id="favHeart"></i>
+                    </span>
+                    <div class="img">
+                        <img src="./img/plates/plate-2.png" alt="">
+                    </div>
+                    <div class="t-one">
+                        <h1>Fruit salad</h1>
+                    </div>
+                    <div class="t-two">
+                        <p>Hesnik Food</p>
+                    </div>
+
+                    <div class="t-btns" id="pr">
+                        <button id="bFav">Add to Card <span>$300</span></button>
+                    </div>
+                </article>
+
+                <article>
+                    <span class="heart">
+                        <i class="fa-solid fa-heart" id="favHeart"></i>
+                    </span>
+                    <div class="img">
+                        <img src="./img/plates/plate-2.png" alt="">
+                    </div>
+                    <div class="t-one">
+                        <h1>Fruit salad</h1>
+                    </div>
+                    <div class="t-two">
+                        <p>Hesnik Food</p>
+                    </div>
+
+                    <div class="t-btns" id="pr">
+                        <button id="bFav">Add to Card <span>$300</span></button>
+                    </div>
+                </article>
+            </div>
+
+            <button class="next">
+                <i class="fa-regular fa-angle-right"></i>
+            </button>
+         </div>
+     </div> 
+ </section>
+
+    <!-- js -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
